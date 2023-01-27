@@ -8,12 +8,16 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) { //eslint-disable-line
+// function sum(a, b) { 
+// //eslint-disable-line
+// let sumValue = a + b;
+// let message = `The sum of ${a} and ${b} is ${sumValue}.`;
+// return [sumValue, message];
+// }
 
-}
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+//testSum(4, 7); 
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -26,12 +30,15 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) { //eslint-disable-line
-
+function multiply(a, b) { 
+  //eslint-disable-line
+  let mSum = a * b;
+  let sumMultiply = `The product of ${a} and ${b} is ${sumMultiply}.`;
+  return [mSum, sumMultiply];
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testmultiply(5, 9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
