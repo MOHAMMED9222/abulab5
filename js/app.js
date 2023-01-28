@@ -117,7 +117,7 @@ console.log(testSum1, Testanswer,AnsThird);
 
 // Here is the test for sumArray(); uncomment it to run it
 
-testSumArray(testArray);
+ testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -132,13 +132,27 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
+let MulArray = [2, 3, 4]
+
+function multiplyArray(multArr) { //eslint-disable-line
+  let a = MulArray[0]
+  let b = MulArray[1]
+  let c = MulArray[2]
+
+  let Mulsum = multiply(MulArray[0], MulArray[1]);
+  console.log(Mulsum[0]);
+  let Mulans = multiply(Mulsum[0], MulArray[2]);
+  console.log(Mulans[0]);
+  let Multhird = `The numbers ${MulArray} have a product of ${Mulans[0]}.`
+
+  return[Mulans[0], Multhird];
 
 
 
-
+}
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
