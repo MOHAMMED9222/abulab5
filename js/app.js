@@ -67,6 +67,7 @@ console.log(answerX[0])
 let Thirdele = `${a} and ${b} and ${c} sum to ${answer[0]}.`
 let Fourthele = `The product of ${a} and ${b} and ${c} is ${answerX[0]}.`
 
+
 return[answer[0], answerX[0], Thirdele, Fourthele]
 
 console.log(answer[0], answerX[0], Thirdele, Fourthele);
